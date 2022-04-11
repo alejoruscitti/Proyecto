@@ -10,7 +10,8 @@
 
 /*fondo del index*/
 body{
-    background-color: #F9DC88 ;  
+    
+    background-image: linear-gradient( to left, #F9DC88 ,#D1BD8F );
 }
 /* titulo,menu y estilo del menu*/
 div p a{
@@ -26,6 +27,16 @@ header{
     top: 0;
     
     
+}
+
+/*transiciones menu*/
+nav ul li a:hover{
+    background-color:#B8994E;
+    transform: scale(1.2);
+}
+
+.Velas1:hover{
+    transform: scale(1.1);
 }
 
 .menu{
@@ -86,7 +97,7 @@ header nav .menu li a{
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 /*subtitlo*/
-h2{
+h1{
     text-align: center;
     margin: 80px;
     padding: 80px;
@@ -307,7 +318,7 @@ p{
     width: 100%;
 }
 /*
-@media only screen and (min-width: 375px){
+@media screen and (min-width: 375px){
     
     
     
